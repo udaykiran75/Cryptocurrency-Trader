@@ -1,0 +1,48 @@
+.heading {
+  color: #00e7ff;
+  font-family: Roboto;
+  text-align: center;
+}
+.cryptoList-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.crypto-items-list {
+  padding: 0px;
+  list-style-type: none;
+  border: 5px #00e7ff solid;
+  border-radius: 10px;
+  width: 80%;
+}
+.crypto-image {
+  width: 90%;
+}
+
+.list-header-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.currency-type-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
+}
+.list-heading {
+  font-family: Roboto;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}

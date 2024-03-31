@@ -1,0 +1,33 @@
+.list-item-container {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-name-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-family: Roboto;
+  color: white;
+}
+.values {
+  font-family: Roboto;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100px;
+}
+.currencyLogo {
+  padding-left: 30px;
+  padding-right: 20px;
+  height: 35px;
+}
